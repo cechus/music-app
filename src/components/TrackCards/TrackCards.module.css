@@ -1,0 +1,42 @@
+.root {
+  width: calc(100% - 20px);
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  /* overflow-x: hidden; */
+  overflow-x: auto;
+  position: relative;
+  border-radius: 8px;
+  padding-bottom: 10px;
+}
+/* .root:hover {
+  overflow-x: auto;
+} */
+/* .root::after {
+  border-radius: 8px;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    var(--dark-blue-grey-20)
+  );
+}
+.root::before {
+  border-radius: 8px;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  background: linear-gradient(
+    to left,
+    var(--dark-blue-grey-20),
+    rgba(255, 255, 255, 0)
+  );
+} */

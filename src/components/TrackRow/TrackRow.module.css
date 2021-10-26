@@ -1,0 +1,30 @@
+.root {
+  display: grid;
+  grid-template-columns: [index] 16px [like] 40px [title] 6fr [var1] 4fr [var2] 1fr [last] minmax(
+      120px,
+      1fr
+    );
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  height: 56px;
+  position: relative;
+  grid-gap: 16px;
+  display: grid;
+  padding: 5px 16px;
+}
+.root:hover {
+    background-color: hsla(0,0%,100%,.8);
+}
+.rootActive {
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+  background-color: var(--white);
+}
+.index {
+  text-align: right;
+}
+.options {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}

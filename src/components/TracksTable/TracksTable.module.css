@@ -1,0 +1,28 @@
+.root {
+  width: 100%;
+  /* overflow: auto; */
+  position: relative;
+}
+.header {
+  display: grid;
+  position: sticky;
+  top: 40px;
+  z-index: 2;
+  grid-template-columns: [index] 16px [like] 40px [title] 6fr [var1] 4fr [var2] 1fr [last] minmax(
+      120px,
+      1fr
+    );
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  grid-gap: 16px;
+  display: grid;
+  padding: 5px 16px;
+  color: var(--dark-blue-grey);
+  font-weight: 600;
+  line-height: 1.33;
+  background-color: hsla(0,0%,100%,.9);
+  box-shadow: 0 1px 10px -5px rgba(0, 0, 0, 0.1);
+  
+  backdrop-filter: blur(10px);
+}

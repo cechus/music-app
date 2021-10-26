@@ -1,0 +1,45 @@
+.root {
+  width: 150px;
+  height: 215px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px;
+  transition: background 300ms ease-in-out;
+}
+.root:hover {
+  cursor: pointer;
+  background: var(--dark-blue-grey-20);
+}
+.coverContainer {
+  width: 112px;
+  height: 112px;
+}
+.cover {
+  width: 100%;
+  border-radius: 8px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.artistTitle,
+.trackTitle {
+  font-weight: 600;
+  line-height: 1.4;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  white-space: pre;
+  text-decoration: none;
+}
+.artistTitle {
+  color: var(--dark-blue-grey);
+  font-size: 16px;
+}
+.trackTitle {
+  color: var(--dark-blue-grey-50);
+  font-size: 14px;
+}

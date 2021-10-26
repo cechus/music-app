@@ -1,0 +1,18 @@
+.root {
+ /* height: 100%; */
+ /* display: grid; */
+ position: relative;
+
+}
+.title {
+  position: sticky;
+  z-index: 2;
+  top: 0%;
+  backdrop-filter: blur(10px);
+  padding: 5px;
+  margin: 0;
+
+}
+.root  h2 {
+  margin: 0;
+}
